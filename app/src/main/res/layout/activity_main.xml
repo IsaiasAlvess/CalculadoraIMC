@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="click" />
+
+
+
+    <EditText
+        android:maxLength="6"
+        android:layout_marginTop="25dp"
+        android:id="@+id/edttext_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="digite seu peso"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/edittext_altura"
+        android:maxLength="6"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edttext_peso"
+        android:layout_marginTop="16dp"
+        android:hint="digite sua altura" />
+
+
+
+
+</RelativeLayout>
